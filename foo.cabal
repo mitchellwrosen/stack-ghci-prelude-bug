@@ -1,0 +1,9 @@
+name: foo
+version: 0
+cabal-version: >= 1.2
+build-type: Simple
+
+library
+  hs-source-dirs: .
+  exposed-modules: Prelude
+  build-depends: base
